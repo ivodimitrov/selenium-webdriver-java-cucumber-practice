@@ -15,13 +15,13 @@ public class ItemResultsPage extends DriverFactory {
      */
 
     // Results heading
-    By resultsHeading = By.xpath(".//*[@id='bcKwText']/span");
+    private By resultsHeading = By.xpath(".//*[@id='bcKwText']/span");
     // Result count heading
-    By resultCountHeading = By.xpath(".//*[@id='s-result-count']");
+    private By resultCountHeading = By.xpath(".//*[@id='s-result-count']");
     // Item Type
-    By itemTypeHeading = By.xpath(".//*[@id='result_0']//div[2]/div[1]/div[1]/a/h3");
+    private By itemTypeHeading = By.xpath(".//*[@id='result_0']//div[2]/div[1]/div[1]/a/h3");
     // Item Price
-    By itemPriceLink = By.xpath(".//*[@id='result_0']//div[2]/div[1]/div[2]/a/span[2]");
+    private By itemPriceLink = By.xpath(".//*[@id='result_0']//div[2]/div[1]/div[2]/a/span[2]");
 
     /**
      * All functions related to behavior will follow now
@@ -32,7 +32,6 @@ public class ItemResultsPage extends DriverFactory {
         waitVar.until(ExpectedConditions.presenceOfElementLocated(resultsHeading));
         driver.findElement(resultsHeading).isDisplayed();
         assertFalse("Verify that results count value is not equal to 0", driver.findElement(resultCountHeading).getText().equals("0"));
-        // assertTrue("Verify that results count value is not equal to 0", !driver.findElement(resultCountHeading).getText().equals("0"));
         assertTrue("Verify results for item are shown", driver.findElement(resultsHeading).getText().contains(searchItem));
     }
 

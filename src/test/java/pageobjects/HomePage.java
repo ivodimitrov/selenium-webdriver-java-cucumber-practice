@@ -15,11 +15,11 @@ public class HomePage extends DriverFactory {
      */
 
     // Amazon Logo
-    By amazonLogo = By.xpath(".//*[@id='nav-logo']/a[1]/span[1]");
+    private By amazonLogo = By.xpath(".//*[@id='nav-logo']/a[1]/span[1]");
     // Dropdown Section
-    By searchDropdown = By.xpath(".//*[@id='searchDropdownBox']");
+    private By searchDropdown = By.xpath(".//*[@id='searchDropdownBox']");
     // Search Field
-    By searchFieldTextbox = By.xpath(".//*[@id='twotabsearchtextbox']");
+    private By searchFieldTextbox = By.xpath(".//*[@id='twotabsearchtextbox']");
 
     /**
      * All functions related to behavior will follow now

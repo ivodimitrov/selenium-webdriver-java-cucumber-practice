@@ -76,7 +76,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4854344295,
+  "duration": 4863711478,
   "status": "passed"
 });
 formatter.scenario({
@@ -145,7 +145,7 @@ formatter.match({
   "location": "SearchFromSearchBar.webBrowserIsAtWebPage(String)"
 });
 formatter.result({
-  "duration": 171653185,
+  "duration": 178512837,
   "status": "passed"
 });
 formatter.match({
@@ -158,7 +158,7 @@ formatter.match({
   "location": "SearchFromSearchBar.userChoosesSectionFromDropdown(String)"
 });
 formatter.result({
-  "duration": 1665642561,
+  "duration": 1586846336,
   "status": "passed"
 });
 formatter.match({
@@ -171,7 +171,7 @@ formatter.match({
   "location": "SearchFromSearchBar.userEntersItemInSearchField(String)"
 });
 formatter.result({
-  "duration": 2005563917,
+  "duration": 2407278190,
   "status": "passed"
 });
 formatter.match({
@@ -184,7 +184,7 @@ formatter.match({
   "location": "SearchFromSearchBar.resultsForItemAreShown(String)"
 });
 formatter.result({
-  "duration": 117772669,
+  "duration": 126940115,
   "status": "passed"
 });
 formatter.match({
@@ -197,7 +197,7 @@ formatter.match({
   "location": "SearchFromSearchBar.firstItemThatAppearsInSearchResultHasType(String)"
 });
 formatter.result({
-  "duration": 39072614,
+  "duration": 33290180,
   "status": "passed"
 });
 formatter.match({
@@ -210,11 +210,11 @@ formatter.match({
   "location": "SearchFromSearchBar.firstItemThatAppearsInSearchResultHasPrice(String)"
 });
 formatter.result({
-  "duration": 31516441,
+  "duration": 31052094,
   "status": "passed"
 });
 formatter.after({
-  "duration": 761780112,
+  "duration": 787654391,
   "status": "passed"
 });
 });
