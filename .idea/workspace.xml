@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6841e423-3bb0-4457-81c1-74b857a7cc32" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/features/amazon_test.feature" afterPath="$PROJECT_DIR$/src/test/java/features/amazon_test.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber-html-report/report.js" afterPath="$PROJECT_DIR$/target/cucumber-html-report/report.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
@@ -470,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508322276941</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding third test: &quot;Add item to basket&quot;">
+      <created>1508324926400</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1508324926400</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -569,7 +575,8 @@
     <MESSAGE value="Change locators to private" />
     <MESSAGE value="Change locators to CSS" />
     <MESSAGE value="Adding second test: &quot;Navigate to the item details&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding second test: &quot;Navigate to the item details&quot;" />
+    <MESSAGE value="Adding third test: &quot;Add item to basket&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding third test: &quot;Add item to basket&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
