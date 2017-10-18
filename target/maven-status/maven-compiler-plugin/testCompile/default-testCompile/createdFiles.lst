@@ -4,7 +4,9 @@ stepdefinitions\Hooks.class
 stepdefinitions\NavigateToItemDetails.class
 utils\DriverFactory.class
 cucumberoptions\RunCukeTest.class
+stepdefinitions\EditBasket.class
 stepdefinitions\AddItemToBasket.class
 pageobjects\ItemDetailsPage.class
 pageobjects\ConfirmationPage.class
+pageobjects\BasketPage.class
 stepdefinitions\SearchFromSearchBar.class

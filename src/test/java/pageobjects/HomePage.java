@@ -37,10 +37,10 @@ public class HomePage extends DriverFactory {
     // Verify choosen section from dropdown is correct
     public void verifyUserChosesSectionFromDropdown(String dropdownSection) {
         waitVar.until(ExpectedConditions.presenceOfElementLocated(searchDropdown));
-        Select dropdownSectionOption = new Select(driver.findElement(searchDropdown));
-        assertFalse("Verify Dropdown does not support multiple selection", dropdownSectionOption.isMultiple());
-        dropdownSectionOption.selectByVisibleText(dropdownSection);
-        assertEquals("Verify choosen section from dropdown is correct", dropdownSection, dropdownSectionOption.getFirstSelectedOption().getText());
+        Select dropdownSectionOptions = new Select(driver.findElement(searchDropdown));
+        assertFalse("Verify Dropdown does not support multiple selection", dropdownSectionOptions.isMultiple());
+        dropdownSectionOptions.selectByVisibleText(dropdownSection);
+        assertEquals("Verify choosen section from dropdown is correct", dropdownSection, dropdownSectionOptions.getFirstSelectedOption().getText());
     }
 
     // Search for item in Search field

@@ -12,7 +12,6 @@ public class ItemResultsPage extends DriverFactory {
     /**
      * Locators will be mentioned here
      */
-
     // Result count heading
     // private By resultCountHeading = By.xpath(".//*[@id='s-result-count']");
     private By resultCountHeading = By.cssSelector("#s-result-count");
@@ -31,7 +30,6 @@ public class ItemResultsPage extends DriverFactory {
     /**
      * All functions related to behavior will follow now
      */
-
     // Verify results for item are shown
     public void verifyResultsForItemAreShown(String searchItem) {
         waitVar.until(ExpectedConditions.presenceOfElementLocated(resultCountHeading));
