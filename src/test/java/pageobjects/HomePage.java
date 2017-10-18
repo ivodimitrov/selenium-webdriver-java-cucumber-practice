@@ -15,11 +15,14 @@ public class HomePage extends DriverFactory {
      */
 
     // Amazon Logo
-    private By amazonLogo = By.xpath(".//*[@id='nav-logo']/a[1]/span[1]");
+    // private By amazonLogo = By.xpath(".//*[@id='nav-logo']/a[1]/span[1]");
+    private By amazonLogo = By.cssSelector("span.nav-logo-base");
     // Dropdown Section
-    private By searchDropdown = By.xpath(".//*[@id='searchDropdownBox']");
+    // private By searchDropdown = By.xpath(".//*[@id='searchDropdownBox']");
+    private By searchDropdown = By.cssSelector("#searchDropdownBox");
     // Search Field
-    private By searchFieldTextbox = By.xpath(".//*[@id='twotabsearchtextbox']");
+    // private By searchFieldTextbox = By.xpath(".//*[@id='twotabsearchtextbox']");
+    private By searchFieldTextbox = By.cssSelector("#twotabsearchtextbox");
 
     /**
      * All functions related to behavior will follow now
@@ -29,7 +32,7 @@ public class HomePage extends DriverFactory {
     public void verifyHomePageIsDisplayed(String webPage) {
         waitVar.until(ExpectedConditions.presenceOfElementLocated(amazonLogo));
         driver.findElement(amazonLogo).isDisplayed();
-        assertEquals("Verify that home page is correct", webPage, driver.getTitle());
+        assertEquals("Verify that home page is displayed", webPage, driver.getTitle());
     }
 
     // Verify choosen section from dropdown is correct

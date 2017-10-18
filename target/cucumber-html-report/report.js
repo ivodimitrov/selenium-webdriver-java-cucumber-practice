@@ -2,12 +2,12 @@ $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.
 formatter.feature({
   "line": 1,
   "name": "Test add item to and edit basket at https://www.amazon.co.uk/",
-  "description": "As a non-registered user\r\nI want to search items on Amazon\r\nSo that I can add items to basket and edit basket",
+  "description": "\r\nAs a non-registered user\r\nI want to search items on Amazon\r\nSo that I can add items to basket and edit basket",
   "id": "test-add-item-to-and-edit-basket-at-https://www.amazon.co.uk/",
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
-  "line": 6,
+  "line": 7,
   "name": "Search from search bar",
   "description": "",
   "id": "test-add-item-to-and-edit-basket-at-https://www.amazon.co.uk/;search-from-search-bar",
@@ -15,37 +15,37 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 7,
+  "line": 8,
   "name": "web browser is at web page \"\u003cWeb page\u003e\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 8,
+  "line": 9,
   "name": "user chooses section from dropdown \"\u003cDropdown section\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 9,
+  "line": 10,
   "name": "user enters item in search field \"\u003cItem title\u003e\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 10,
+  "line": 11,
   "name": "results for item are shown \"\u003cItem title\u003e\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 11,
+  "line": 12,
   "name": "first item that appears in search result has type \"\u003cItem type\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 12,
+  "line": 13,
   "name": "first item that appears in search result has price \"\u003cItem price\u003e\"",
   "keyword": "And "
 });
 formatter.examples({
-  "line": 14,
+  "line": 15,
   "name": "",
   "description": "",
   "id": "test-add-item-to-and-edit-basket-at-https://www.amazon.co.uk/;search-from-search-bar;",
@@ -58,7 +58,7 @@ formatter.examples({
         "Item type",
         "Item price"
       ],
-      "line": 15,
+      "line": 16,
       "id": "test-add-item-to-and-edit-basket-at-https://www.amazon.co.uk/;search-from-search-bar;;1"
     },
     {
@@ -69,18 +69,18 @@ formatter.examples({
         "Paperback",
         "£3.99"
       ],
-      "line": 16,
+      "line": 17,
       "id": "test-add-item-to-and-edit-basket-at-https://www.amazon.co.uk/;search-from-search-bar;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4863711478,
+  "duration": 4747571774,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 16,
+  "line": 17,
   "name": "Search from search bar",
   "description": "",
   "id": "test-add-item-to-and-edit-basket-at-https://www.amazon.co.uk/;search-from-search-bar;;2",
@@ -88,7 +88,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 7,
+  "line": 8,
   "name": "web browser is at web page \"Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment \u0026 more\"",
   "matchedColumns": [
     0
@@ -96,7 +96,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "line": 8,
+  "line": 9,
   "name": "user chooses section from dropdown \"Books\"",
   "matchedColumns": [
     1
@@ -104,7 +104,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 9,
+  "line": 10,
   "name": "user enters item in search field \"Harry Potter and the Cursed Child - Parts One \u0026 Two\"",
   "matchedColumns": [
     2
@@ -112,7 +112,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 10,
+  "line": 11,
   "name": "results for item are shown \"Harry Potter and the Cursed Child - Parts One \u0026 Two\"",
   "matchedColumns": [
     2
@@ -120,7 +120,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 11,
+  "line": 12,
   "name": "first item that appears in search result has type \"Paperback\"",
   "matchedColumns": [
     3
@@ -128,7 +128,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 12,
+  "line": 13,
   "name": "first item that appears in search result has price \"£3.99\"",
   "matchedColumns": [
     4
@@ -145,7 +145,7 @@ formatter.match({
   "location": "SearchFromSearchBar.webBrowserIsAtWebPage(String)"
 });
 formatter.result({
-  "duration": 178512837,
+  "duration": 184470906,
   "status": "passed"
 });
 formatter.match({
@@ -158,7 +158,7 @@ formatter.match({
   "location": "SearchFromSearchBar.userChoosesSectionFromDropdown(String)"
 });
 formatter.result({
-  "duration": 1586846336,
+  "duration": 1566624167,
   "status": "passed"
 });
 formatter.match({
@@ -171,7 +171,7 @@ formatter.match({
   "location": "SearchFromSearchBar.userEntersItemInSearchField(String)"
 });
 formatter.result({
-  "duration": 2407278190,
+  "duration": 1864527516,
   "status": "passed"
 });
 formatter.match({
@@ -184,7 +184,7 @@ formatter.match({
   "location": "SearchFromSearchBar.resultsForItemAreShown(String)"
 });
 formatter.result({
-  "duration": 126940115,
+  "duration": 143600856,
   "status": "passed"
 });
 formatter.match({
@@ -197,7 +197,7 @@ formatter.match({
   "location": "SearchFromSearchBar.firstItemThatAppearsInSearchResultHasType(String)"
 });
 formatter.result({
-  "duration": 33290180,
+  "duration": 66062369,
   "status": "passed"
 });
 formatter.match({
@@ -210,11 +210,11 @@ formatter.match({
   "location": "SearchFromSearchBar.firstItemThatAppearsInSearchResultHasPrice(String)"
 });
 formatter.result({
-  "duration": 31052094,
+  "duration": 67348716,
   "status": "passed"
 });
 formatter.after({
-  "duration": 787654391,
+  "duration": 759251045,
   "status": "passed"
 });
 });
