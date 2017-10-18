@@ -12,7 +12,6 @@ public class HomePage extends DriverFactory {
     /**
      * Locators will be mentioned here
      */
-
     // Amazon Logo
     // private By amazonLogo = By.xpath(".//*[@id='nav-logo']/a[1]/span[1]");
     private By amazonLogo = By.cssSelector("span.nav-logo-base");
@@ -26,7 +25,6 @@ public class HomePage extends DriverFactory {
     /**
      * All functions related to behavior will follow now
      */
-
     // Verify that home page is correct and opened
     public void verifyHomePageIsDisplayed(String webPage) {
         waitVar.until(ExpectedConditions.presenceOfElementLocated(amazonLogo));

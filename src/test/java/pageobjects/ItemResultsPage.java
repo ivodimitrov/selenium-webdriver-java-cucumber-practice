@@ -36,7 +36,6 @@ public class ItemResultsPage extends DriverFactory {
         driver.findElement(resultCountHeading).isDisplayed();
         waitVar.until(ExpectedConditions.presenceOfElementLocated(resultsHeading));
         driver.findElement(resultsHeading).isDisplayed();
-
         assertFalse("Verify that results count value is not equal to 0", driver.findElement(resultCountHeading).getText().equals("0"));
         assertTrue("Verify results for item are shown", driver.findElement(resultsHeading).getText().contains(searchItem));
     }
