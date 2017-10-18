@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="cucumberoptions.RunCukeTest" time="0.79" errors="0" skipped="0">
+<testsuite tests="16" failures="0" name="cucumberoptions.RunCukeTest" time="1.47" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
@@ -65,11 +65,20 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="| Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment &amp; more | Books | Harry Potter and the Cursed Child - Parts One &amp; Two | Paperback | £3.99 |" name="Given web browser is at web page &quot;Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment &amp; more&quot;" time="0.001"/>
+  <testcase classname="| Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment &amp; more | Books | Harry Potter and the Cursed Child - Parts One &amp; Two | Paperback | £3.99 |" name="Given web browser is at web page &quot;Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment &amp; more&quot;" time="0.002"/>
   <testcase classname="| Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment &amp; more | Books | Harry Potter and the Cursed Child - Parts One &amp; Two | Paperback | £3.99 |" name="And user chooses section from dropdown &quot;Books&quot;" time="0"/>
   <testcase classname="| Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment &amp; more | Books | Harry Potter and the Cursed Child - Parts One &amp; Two | Paperback | £3.99 |" name="When user enters item in search field &quot;Harry Potter and the Cursed Child - Parts One &amp; Two&quot;" time="0"/>
   <testcase classname="| Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment &amp; more | Books | Harry Potter and the Cursed Child - Parts One &amp; Two | Paperback | £3.99 |" name="Then results for item are shown &quot;Harry Potter and the Cursed Child - Parts One &amp; Two&quot;" time="0"/>
   <testcase classname="| Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment &amp; more | Books | Harry Potter and the Cursed Child - Parts One &amp; Two | Paperback | £3.99 |" name="And first item that appears in search result has type &quot;Paperback&quot;" time="0"/>
   <testcase classname="| Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment &amp; more | Books | Harry Potter and the Cursed Child - Parts One &amp; Two | Paperback | £3.99 |" name="And first item that appears in search result has price &quot;£3.99&quot;" time="0"/>
-  <testcase classname="| Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment &amp; more | Books | Harry Potter and the Cursed Child - Parts One &amp; Two | Paperback | £3.99 |" name="| Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment &amp; more | Books | Harry Potter and the Cursed Child - Parts One &amp; Two | Paperback | £3.99 |" time="0.789"/>
+  <testcase classname="| Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment &amp; more | Books | Harry Potter and the Cursed Child - Parts One &amp; Two | Paperback | £3.99 |" name="| Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment &amp; more | Books | Harry Potter and the Cursed Child - Parts One &amp; Two | Paperback | £3.99 |" time="0.762"/>
+  <testcase classname="| Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment &amp; more | Books | Harry Potter and the Cursed Child | Paperback | £3.85 |" name="Given web browser is at web page &quot;Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment &amp; more&quot;" time="0"/>
+  <testcase classname="| Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment &amp; more | Books | Harry Potter and the Cursed Child | Paperback | £3.85 |" name="And user chooses section from dropdown &quot;Books&quot;" time="0"/>
+  <testcase classname="| Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment &amp; more | Books | Harry Potter and the Cursed Child | Paperback | £3.85 |" name="And user enters item in search field &quot;Harry Potter and the Cursed Child&quot;" time="0"/>
+  <testcase classname="| Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment &amp; more | Books | Harry Potter and the Cursed Child | Paperback | £3.85 |" name="When user clicks on first item that appears in search result" time="0"/>
+  <testcase classname="| Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment &amp; more | Books | Harry Potter and the Cursed Child | Paperback | £3.85 |" name="Then new web page is loaded with item details &quot;Harry Potter and the Cursed Child&quot;" time="0"/>
+  <testcase classname="| Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment &amp; more | Books | Harry Potter and the Cursed Child | Paperback | £3.85 |" name="And item has title &quot;Harry Potter and the Cursed Child&quot;" time="0"/>
+  <testcase classname="| Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment &amp; more | Books | Harry Potter and the Cursed Child | Paperback | £3.85 |" name="And item has type &quot;Paperback&quot;" time="0"/>
+  <testcase classname="| Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment &amp; more | Books | Harry Potter and the Cursed Child | Paperback | £3.85 |" name="And item has price &quot;£3.85&quot;" time="0"/>
+  <testcase classname="| Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment &amp; more | Books | Harry Potter and the Cursed Child | Paperback | £3.85 |" name="| Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment &amp; more | Books | Harry Potter and the Cursed Child | Paperback | £3.85 |" time="0.706"/>
 </testsuite>

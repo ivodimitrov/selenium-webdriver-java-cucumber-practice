@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: cucumberoptions.RunCukeTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.309 sec
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.382 sec

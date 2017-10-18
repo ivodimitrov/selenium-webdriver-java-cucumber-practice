@@ -9,7 +9,6 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 public class ItemResultsPage extends DriverFactory {
-
     /**
      * Locators will be mentioned here
      */
@@ -26,6 +25,8 @@ public class ItemResultsPage extends DriverFactory {
     // Item Price
     // private By itemPriceLink = By.xpath(".//*[@id='result_0']//div[2]/div[1]/div[2]/a/span[2]");
     private By itemPriceLink = By.cssSelector(".a-size-base.a-color-price.s-price.a-text-bold");
+    // Item title heading
+    private By itemTitleLink = By.cssSelector("#result_0 .a-size-medium.s-inline.s-access-title.a-text-normal");
 
     /**
      * All functions related to behavior will follow now
@@ -54,5 +55,12 @@ public class ItemResultsPage extends DriverFactory {
         waitVar.until(ExpectedConditions.presenceOfElementLocated(itemPriceLink));
         driver.findElement(itemPriceLink).isDisplayed();
         assertEquals("Verify item has price", itemPrice, driver.findElement(itemPriceLink).getText());
+    }
+
+    // Click on item title
+    public void userClicksOnItemTitle() {
+        waitVar.until(ExpectedConditions.presenceOfElementLocated(itemTitleLink));
+        driver.findElement(itemTitleLink).isDisplayed();
+        driver.findElement(itemTitleLink).click();
     }
 }
