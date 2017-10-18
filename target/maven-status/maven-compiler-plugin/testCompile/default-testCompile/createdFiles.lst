@@ -1,6 +1,10 @@
 pageobjects\HomePage.class
 pageobjects\ItemResultsPage.class
 stepdefinitions\Hooks.class
+stepdefinitions\NavigateToItemDetails.class
 utils\DriverFactory.class
 cucumberoptions\RunCukeTest.class
+stepdefinitions\AddItemToBasket.class
+pageobjects\ItemDetailsPage.class
+pageobjects\ConfirmationPage.class
 stepdefinitions\SearchFromSearchBar.class

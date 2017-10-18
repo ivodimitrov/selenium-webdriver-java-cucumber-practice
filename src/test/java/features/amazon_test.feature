@@ -30,3 +30,15 @@ Feature: Test add item to and edit basket at https://www.amazon.co.uk/
       | Web page                                                                | Dropdown section | Item title                        | Item type | Item price |
       | Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment & more | Books            | Harry Potter and the Cursed Child | Paperback | £3.99      |
 
+  Scenario Outline: Add item to basket
+    Given web browser is at web page "<Web page>"
+    And user chooses section from dropdown "<Dropdown section>"
+    And user enters item in search field "<Item title>"
+    And user clicks on first item that appears in search result
+    When user clicks on add button
+    Then notification is shown "<Notification>"
+    And item has quantity "<Quantity>"
+
+    Examples:
+      | Web page                                                                | Dropdown section | Item title                                          | Notification    | Quantity |
+      | Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment & more | Books            | Harry Potter and the Cursed Child - Parts One & Two | Added to Basket | 1        |
