@@ -29,7 +29,7 @@ public class HomePage extends DriverFactory {
     public void verifyHomePageIsDisplayed(String webPage) {
         waitVar.until(ExpectedConditions.presenceOfElementLocated(amazonLogo));
         driver.findElement(amazonLogo).isDisplayed();
-        assertEquals("Verify that home page is displayed", webPage, driver.getTitle());
+        assertEquals("Verify that home page is correct", webPage, driver.getTitle());
     }
 
     // Verify choosen section from dropdown is correct
