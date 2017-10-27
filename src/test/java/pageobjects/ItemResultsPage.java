@@ -22,8 +22,8 @@ public class ItemResultsPage extends DriverFactory {
     // private By itemTypeHeading = By.xpath(".//*[@id='result_0']//div[2]/div[1]/div[1]/a/h3");
     private By itemTypeHeading = By.cssSelector(".a-size-small.s-inline.a-text-normal");
     // Item Price
-    // private By itemPriceLink = By.xpath(".//*[@id='result_0']//div[2]/div[1]/div[2]/a/span[2]");
-    private By itemPriceLink = By.cssSelector(".a-size-base.a-color-price.s-price.a-text-bold");
+    private By itemPriceLink = By.xpath("//*[@id=\"result_0\"]/div/div/div/div[2]/div[2]/div[1]/div[2]");
+    // private By itemPriceLink = By.cssSelector("");
     // Item title heading
     private By itemTitleLink = By.cssSelector("#result_0 .a-size-medium.s-inline.s-access-title.a-text-normal");
 
@@ -33,25 +33,25 @@ public class ItemResultsPage extends DriverFactory {
     // Verify results for item are shown
     public void verifyResultsForItemAreShown(String searchItem) {
         waitVar.until(ExpectedConditions.presenceOfElementLocated(resultCountHeading));
-        driver.findElement(resultCountHeading).isDisplayed();
+        assertTrue("Result count is not displayed", driver.findElement(resultCountHeading).isDisplayed());
         waitVar.until(ExpectedConditions.presenceOfElementLocated(resultsHeading));
-        driver.findElement(resultsHeading).isDisplayed();
-        assertFalse("Verify that results count value is not equal to 0", driver.findElement(resultCountHeading).getText().equals("0"));
-        assertTrue("Verify results for item are shown", driver.findElement(resultsHeading).getText().contains(searchItem));
+        assertTrue("Result Heading is not displayed", driver.findElement(resultsHeading).isDisplayed());
+        assertFalse("Results count value is equal to 0", driver.findElement(resultCountHeading).getText().equals("0"));
+        assertTrue("Results for item are not shown", driver.findElement(resultsHeading).getText().contains(searchItem));
     }
 
     // Verify item type
     public void verifyItemHasType(String itemType) {
         waitVar.until(ExpectedConditions.presenceOfElementLocated(itemTypeHeading));
-        driver.findElement(itemTypeHeading).isDisplayed();
-        assertEquals("Verify item has type", itemType, driver.findElement(itemTypeHeading).getText());
+        assertTrue("Item type is not displayed", driver.findElement(itemTypeHeading).isDisplayed());
+        assertEquals("Item type is not correct", itemType, driver.findElement(itemTypeHeading).getText());
     }
 
     // Verify item price
     public void verifyItemHasPrice(String itemPrice) {
         waitVar.until(ExpectedConditions.presenceOfElementLocated(itemPriceLink));
-        driver.findElement(itemPriceLink).isDisplayed();
-        assertEquals("Verify item has price", itemPrice, driver.findElement(itemPriceLink).getText());
+        assertTrue("Item price is not displayed", driver.findElement(itemPriceLink).isDisplayed());
+        assertTrue("Item price is not correct", driver.findElement(itemPriceLink).getText().concat(itemPrice).contains(itemPrice));
     }
 
     // Click on item title

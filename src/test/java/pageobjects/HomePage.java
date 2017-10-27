@@ -7,6 +7,7 @@ import utils.DriverFactory;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 public class HomePage extends DriverFactory {
     /**
@@ -28,17 +29,17 @@ public class HomePage extends DriverFactory {
     // Verify that home page is correct and opened
     public void verifyHomePageIsDisplayed(String webPage) {
         waitVar.until(ExpectedConditions.presenceOfElementLocated(amazonLogo));
-        driver.findElement(amazonLogo).isDisplayed();
-        assertEquals("Verify that home page is correct", webPage, driver.getTitle());
+        assertTrue("Home page is not displayed", driver.findElement(amazonLogo).isDisplayed());
+        assertEquals("Home page is not correct", webPage, driver.getTitle());
     }
 
-    // Verify choosen section from dropdown is correct
+    // Verify section from dropdown is correct
     public void verifyUserChosesSectionFromDropdown(String dropdownSection) {
         waitVar.until(ExpectedConditions.presenceOfElementLocated(searchDropdown));
         Select dropdownSectionOptions = new Select(driver.findElement(searchDropdown));
-        assertFalse("Verify Dropdown does not support multiple selection", dropdownSectionOptions.isMultiple());
+        assertFalse("Dropdown support multiple selection", dropdownSectionOptions.isMultiple());
         dropdownSectionOptions.selectByVisibleText(dropdownSection);
-        assertEquals("Verify choosen section from dropdown is correct", dropdownSection, dropdownSectionOptions.getFirstSelectedOption().getText());
+        assertEquals("Section from dropdown is not correct", dropdownSection, dropdownSectionOptions.getFirstSelectedOption().getText());
     }
 
     // Search for item in Search field

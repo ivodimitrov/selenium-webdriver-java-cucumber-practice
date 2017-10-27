@@ -76,7 +76,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 6977594346,
+  "duration": 5618815201,
   "status": "passed"
 });
 formatter.scenario({
@@ -145,7 +145,7 @@ formatter.match({
   "location": "SearchFromSearchBar.webBrowserIsAtWebPage(String)"
 });
 formatter.result({
-  "duration": 137530999,
+  "duration": 217067352,
   "status": "passed"
 });
 formatter.match({
@@ -158,7 +158,7 @@ formatter.match({
   "location": "SearchFromSearchBar.userChoosesSectionFromDropdown(String)"
 });
 formatter.result({
-  "duration": 353533713,
+  "duration": 1924303585,
   "status": "passed"
 });
 formatter.match({
@@ -171,7 +171,7 @@ formatter.match({
   "location": "SearchFromSearchBar.userEntersItemInSearchField(String)"
 });
 formatter.result({
-  "duration": 374867837,
+  "duration": 2245221013,
   "status": "passed"
 });
 formatter.match({
@@ -184,7 +184,7 @@ formatter.match({
   "location": "SearchFromSearchBar.resultsForItemAreShown(String)"
 });
 formatter.result({
-  "duration": 552720875,
+  "duration": 154915844,
   "status": "passed"
 });
 formatter.match({
@@ -197,7 +197,7 @@ formatter.match({
   "location": "SearchFromSearchBar.firstItemThatAppearsInSearchResultHasType(String)"
 });
 formatter.result({
-  "duration": 195907419,
+  "duration": 73339109,
   "status": "passed"
 });
 formatter.match({
@@ -210,11 +210,11 @@ formatter.match({
   "location": "SearchFromSearchBar.firstItemThatAppearsInSearchResultHasPrice(String)"
 });
 formatter.result({
-  "duration": 127797612,
+  "duration": 85774931,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1001311954,
+  "duration": 964594599,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -297,7 +297,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 6195981396,
+  "duration": 4888608819,
   "status": "passed"
 });
 formatter.scenario({
@@ -379,7 +379,7 @@ formatter.match({
   "location": "SearchFromSearchBar.webBrowserIsAtWebPage(String)"
 });
 formatter.result({
-  "duration": 105592835,
+  "duration": 66696827,
   "status": "passed"
 });
 formatter.match({
@@ -392,7 +392,7 @@ formatter.match({
   "location": "SearchFromSearchBar.userChoosesSectionFromDropdown(String)"
 });
 formatter.result({
-  "duration": 342439433,
+  "duration": 1842805948,
   "status": "passed"
 });
 formatter.match({
@@ -405,14 +405,14 @@ formatter.match({
   "location": "SearchFromSearchBar.userEntersItemInSearchField(String)"
 });
 formatter.result({
-  "duration": 320737130,
+  "duration": 2679094805,
   "status": "passed"
 });
 formatter.match({
   "location": "NavigateToItemDetails.userClicksOnFirstItemThatAppearsInSearchResult()"
 });
 formatter.result({
-  "duration": 3505498770,
+  "duration": 2303684767,
   "status": "passed"
 });
 formatter.match({
@@ -425,7 +425,7 @@ formatter.match({
   "location": "NavigateToItemDetails.newWebPageIsLoadedWithItemDetails(String)"
 });
 formatter.result({
-  "duration": 56756607,
+  "duration": 92680970,
   "status": "passed"
 });
 formatter.match({
@@ -438,7 +438,7 @@ formatter.match({
   "location": "NavigateToItemDetails.itemHasTitle(String)"
 });
 formatter.result({
-  "duration": 41217161,
+  "duration": 79411200,
   "status": "passed"
 });
 formatter.match({
@@ -451,7 +451,7 @@ formatter.match({
   "location": "NavigateToItemDetails.itemHasType(String)"
 });
 formatter.result({
-  "duration": 37836411,
+  "duration": 69647372,
   "status": "passed"
 });
 formatter.match({
@@ -464,11 +464,11 @@ formatter.match({
   "location": "NavigateToItemDetails.itemHasPrice(String)"
 });
 formatter.result({
-  "duration": 33576472,
+  "duration": 147509890,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1135368025,
+  "duration": 880576907,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -546,7 +546,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4782480473,
+  "duration": 4036047579,
   "status": "passed"
 });
 formatter.scenario({
@@ -617,7 +617,7 @@ formatter.match({
   "location": "SearchFromSearchBar.webBrowserIsAtWebPage(String)"
 });
 formatter.result({
-  "duration": 106783581,
+  "duration": 1705423511,
   "status": "passed"
 });
 formatter.match({
@@ -630,7 +630,7 @@ formatter.match({
   "location": "SearchFromSearchBar.userChoosesSectionFromDropdown(String)"
 });
 formatter.result({
-  "duration": 340306333,
+  "duration": 297010617,
   "status": "passed"
 });
 formatter.match({
@@ -643,21 +643,21 @@ formatter.match({
   "location": "SearchFromSearchBar.userEntersItemInSearchField(String)"
 });
 formatter.result({
-  "duration": 352318497,
+  "duration": 2073136526,
   "status": "passed"
 });
 formatter.match({
   "location": "NavigateToItemDetails.userClicksOnFirstItemThatAppearsInSearchResult()"
 });
 formatter.result({
-  "duration": 3088873739,
+  "duration": 2175792443,
   "status": "passed"
 });
 formatter.match({
   "location": "AddItemToBasket.userClicksOnAddButton()"
 });
 formatter.result({
-  "duration": 948628068,
+  "duration": 1005611726,
   "status": "passed"
 });
 formatter.match({
@@ -670,7 +670,7 @@ formatter.match({
   "location": "AddItemToBasket.notificationIsShown(String)"
 });
 formatter.result({
-  "duration": 86595531,
+  "duration": 73090149,
   "status": "passed"
 });
 formatter.match({
@@ -683,11 +683,11 @@ formatter.match({
   "location": "AddItemToBasket.itemHasQuantity(String)"
 });
 formatter.result({
-  "duration": 59027419,
+  "duration": 74472380,
   "status": "passed"
 });
 formatter.after({
-  "duration": 573588945,
+  "duration": 848433039,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -798,7 +798,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5181112296,
+  "duration": 5016454196,
   "status": "passed"
 });
 formatter.scenario({
@@ -907,7 +907,7 @@ formatter.match({
   "location": "SearchFromSearchBar.webBrowserIsAtWebPage(String)"
 });
 formatter.result({
-  "duration": 116574442,
+  "duration": 70955057,
   "status": "passed"
 });
 formatter.match({
@@ -920,7 +920,7 @@ formatter.match({
   "location": "SearchFromSearchBar.userChoosesSectionFromDropdown(String)"
 });
 formatter.result({
-  "duration": 324218604,
+  "duration": 1919312981,
   "status": "passed"
 });
 formatter.match({
@@ -933,28 +933,28 @@ formatter.match({
   "location": "SearchFromSearchBar.userEntersItemInSearchField(String)"
 });
 formatter.result({
-  "duration": 343642698,
+  "duration": 2288241495,
   "status": "passed"
 });
 formatter.match({
   "location": "NavigateToItemDetails.userClicksOnFirstItemThatAppearsInSearchResult()"
 });
 formatter.result({
-  "duration": 3577609881,
+  "duration": 2107963484,
   "status": "passed"
 });
 formatter.match({
   "location": "AddItemToBasket.userClicksOnAddButton()"
 });
 formatter.result({
-  "duration": 1160412097,
+  "duration": 1264256438,
   "status": "passed"
 });
 formatter.match({
   "location": "EditBasket.userClicksOnEditButton()"
 });
 formatter.result({
-  "duration": 1223883260,
+  "duration": 1140417771,
   "status": "passed"
 });
 formatter.match({
@@ -971,7 +971,7 @@ formatter.match({
   "location": "EditBasket.newPageIsLoadedWithBasketDetails(String,String)"
 });
 formatter.result({
-  "duration": 130438308,
+  "duration": 127229375,
   "status": "passed"
 });
 formatter.match({
@@ -984,7 +984,7 @@ formatter.match({
   "location": "EditBasket.itemInBasketHasTitle(String)"
 });
 formatter.result({
-  "duration": 37413034,
+  "duration": 85159783,
   "status": "passed"
 });
 formatter.match({
@@ -997,7 +997,7 @@ formatter.match({
   "location": "EditBasket.itemInBasketHasType(String)"
 });
 formatter.result({
-  "duration": 33161915,
+  "duration": 66487699,
   "status": "passed"
 });
 formatter.match({
@@ -1010,7 +1010,7 @@ formatter.match({
   "location": "EditBasket.itemInBasketHasPrice(String)"
 });
 formatter.result({
-  "duration": 45600301,
+  "duration": 767900234,
   "status": "passed"
 });
 formatter.match({
@@ -1023,7 +1023,7 @@ formatter.match({
   "location": "EditBasket.itemInBasketHasQuantity(String)"
 });
 formatter.result({
-  "duration": 39877893,
+  "duration": 68107227,
   "status": "passed"
 });
 formatter.match({
@@ -1036,11 +1036,11 @@ formatter.match({
   "location": "EditBasket.basketHasTotalPrice(String)"
 });
 formatter.result({
-  "duration": 58948319,
+  "duration": 69697448,
   "status": "passed"
 });
 formatter.after({
-  "duration": 639910214,
+  "duration": 889708516,
   "status": "passed"
 });
 });
