@@ -67,7 +67,7 @@ formatter.examples({
         "Books",
         "Harry Potter and the Cursed Child - Parts One \u0026 Two",
         "Paperback",
-        "£3.99"
+        "£3.72"
       ],
       "line": 17,
       "id": "test-add-item-to-and-edit-basket-at-https://www.amazon.co.uk/;search-from-search-bar;;2"
@@ -76,7 +76,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5736623604,
+  "duration": 6695042346,
   "status": "passed"
 });
 formatter.scenario({
@@ -129,7 +129,7 @@ formatter.step({
 });
 formatter.step({
   "line": 13,
-  "name": "first item that appears in search result has price \"£3.99\"",
+  "name": "first item that appears in search result has price \"£3.72\"",
   "matchedColumns": [
     4
   ],
@@ -145,7 +145,7 @@ formatter.match({
   "location": "SearchFromSearchBar.webBrowserIsAtWebPage(String)"
 });
 formatter.result({
-  "duration": 214753862,
+  "duration": 250433761,
   "status": "passed"
 });
 formatter.match({
@@ -158,7 +158,7 @@ formatter.match({
   "location": "SearchFromSearchBar.userChoosesSectionFromDropdown(String)"
 });
 formatter.result({
-  "duration": 2250258848,
+  "duration": 1815499092,
   "status": "passed"
 });
 formatter.match({
@@ -171,7 +171,7 @@ formatter.match({
   "location": "SearchFromSearchBar.userEntersItemInSearchField(String)"
 });
 formatter.result({
-  "duration": 2091917014,
+  "duration": 1885201642,
   "status": "passed"
 });
 formatter.match({
@@ -184,7 +184,7 @@ formatter.match({
   "location": "SearchFromSearchBar.resultsForItemAreShown(String)"
 });
 formatter.result({
-  "duration": 148972929,
+  "duration": 154576928,
   "status": "passed"
 });
 formatter.match({
@@ -197,24 +197,24 @@ formatter.match({
   "location": "SearchFromSearchBar.firstItemThatAppearsInSearchResultHasType(String)"
 });
 formatter.result({
-  "duration": 67302015,
+  "duration": 54932757,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "£3.99",
+      "val": "£3.72",
       "offset": 52
     }
   ],
   "location": "SearchFromSearchBar.firstItemThatAppearsInSearchResultHasPrice(String)"
 });
 formatter.result({
-  "duration": 772897950,
+  "duration": 70586860,
   "status": "passed"
 });
 formatter.after({
-  "duration": 934672886,
+  "duration": 1000368462,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -288,7 +288,7 @@ formatter.examples({
         "Books",
         "Harry Potter and the Cursed Child",
         "Paperback",
-        "£3.99"
+        "£3.72"
       ],
       "line": 31,
       "id": "test-add-item-to-and-edit-basket-at-https://www.amazon.co.uk/;navigate-to-item-details;;2"
@@ -297,7 +297,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4034546414,
+  "duration": 5792417699,
   "status": "passed"
 });
 formatter.scenario({
@@ -363,7 +363,7 @@ formatter.step({
 });
 formatter.step({
   "line": 27,
-  "name": "item has price \"£3.99\"",
+  "name": "item has price \"£3.72\"",
   "matchedColumns": [
     4
   ],
@@ -379,7 +379,7 @@ formatter.match({
   "location": "SearchFromSearchBar.webBrowserIsAtWebPage(String)"
 });
 formatter.result({
-  "duration": 1982358758,
+  "duration": 77240806,
   "status": "passed"
 });
 formatter.match({
@@ -392,7 +392,7 @@ formatter.match({
   "location": "SearchFromSearchBar.userChoosesSectionFromDropdown(String)"
 });
 formatter.result({
-  "duration": 288767301,
+  "duration": 1740255095,
   "status": "passed"
 });
 formatter.match({
@@ -405,14 +405,14 @@ formatter.match({
   "location": "SearchFromSearchBar.userEntersItemInSearchField(String)"
 });
 formatter.result({
-  "duration": 2445937168,
+  "duration": 2224440236,
   "status": "passed"
 });
 formatter.match({
   "location": "NavigateToItemDetails.userClicksOnFirstItemThatAppearsInSearchResult()"
 });
 formatter.result({
-  "duration": 2951607934,
+  "duration": 2796505498,
   "status": "passed"
 });
 formatter.match({
@@ -425,7 +425,7 @@ formatter.match({
   "location": "NavigateToItemDetails.newWebPageIsLoadedWithItemDetails(String)"
 });
 formatter.result({
-  "duration": 88833311,
+  "duration": 65866273,
   "status": "passed"
 });
 formatter.match({
@@ -438,7 +438,7 @@ formatter.match({
   "location": "NavigateToItemDetails.itemHasTitle(String)"
 });
 formatter.result({
-  "duration": 75575207,
+  "duration": 55874257,
   "status": "passed"
 });
 formatter.match({
@@ -451,24 +451,24 @@ formatter.match({
   "location": "NavigateToItemDetails.itemHasType(String)"
 });
 formatter.result({
-  "duration": 68884270,
+  "duration": 61060614,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "£3.99",
+      "val": "£3.72",
       "offset": 16
     }
   ],
   "location": "NavigateToItemDetails.itemHasPrice(String)"
 });
 formatter.result({
-  "duration": 757038700,
+  "duration": 58942311,
   "status": "passed"
 });
 formatter.after({
-  "duration": 858385793,
+  "duration": 944552818,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -546,7 +546,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5946376051,
+  "duration": 6021855650,
   "status": "passed"
 });
 formatter.scenario({
@@ -617,7 +617,7 @@ formatter.match({
   "location": "SearchFromSearchBar.webBrowserIsAtWebPage(String)"
 });
 formatter.result({
-  "duration": 174244901,
+  "duration": 201256699,
   "status": "passed"
 });
 formatter.match({
@@ -630,7 +630,7 @@ formatter.match({
   "location": "SearchFromSearchBar.userChoosesSectionFromDropdown(String)"
 });
 formatter.result({
-  "duration": 2001516529,
+  "duration": 1644259698,
   "status": "passed"
 });
 formatter.match({
@@ -643,21 +643,21 @@ formatter.match({
   "location": "SearchFromSearchBar.userEntersItemInSearchField(String)"
 });
 formatter.result({
-  "duration": 2101052323,
+  "duration": 2027718612,
   "status": "passed"
 });
 formatter.match({
   "location": "NavigateToItemDetails.userClicksOnFirstItemThatAppearsInSearchResult()"
 });
 formatter.result({
-  "duration": 3408127798,
+  "duration": 2500842484,
   "status": "passed"
 });
 formatter.match({
   "location": "AddItemToBasket.userClicksOnAddButton()"
 });
 formatter.result({
-  "duration": 1076246406,
+  "duration": 1056128909,
   "status": "passed"
 });
 formatter.match({
@@ -670,7 +670,7 @@ formatter.match({
   "location": "AddItemToBasket.notificationIsShown(String)"
 });
 formatter.result({
-  "duration": 120008080,
+  "duration": 66993000,
   "status": "passed"
 });
 formatter.match({
@@ -683,11 +683,11 @@ formatter.match({
   "location": "AddItemToBasket.itemHasQuantity(String)"
 });
 formatter.result({
-  "duration": 69183024,
+  "duration": 52183658,
   "status": "passed"
 });
 formatter.after({
-  "duration": 884563130,
+  "duration": 968698625,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -787,9 +787,9 @@ formatter.examples({
         "Amazon.co.uk Shopping Basket",
         "Shopping Basket",
         "Paperback",
-        "£3.99",
+        "£3.72",
         "1",
-        "£3.99"
+        "£3.72"
       ],
       "line": 62,
       "id": "test-add-item-to-and-edit-basket-at-https://www.amazon.co.uk/;edit-basket;;2"
@@ -798,7 +798,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4266872379,
+  "duration": 5702614745,
   "status": "passed"
 });
 formatter.scenario({
@@ -875,7 +875,7 @@ formatter.step({
 });
 formatter.step({
   "line": 56,
-  "name": "item in basket has price \"£3.99\"",
+  "name": "item in basket has price \"£3.72\"",
   "matchedColumns": [
     6
   ],
@@ -891,7 +891,7 @@ formatter.step({
 });
 formatter.step({
   "line": 58,
-  "name": "basket has total price \"£3.99\"",
+  "name": "basket has total price \"£3.72\"",
   "matchedColumns": [
     8
   ],
@@ -907,7 +907,7 @@ formatter.match({
   "location": "SearchFromSearchBar.webBrowserIsAtWebPage(String)"
 });
 formatter.result({
-  "duration": 219280687,
+  "duration": 226244706,
   "status": "passed"
 });
 formatter.match({
@@ -920,7 +920,7 @@ formatter.match({
   "location": "SearchFromSearchBar.userChoosesSectionFromDropdown(String)"
 });
 formatter.result({
-  "duration": 1987891384,
+  "duration": 1676722797,
   "status": "passed"
 });
 formatter.match({
@@ -933,28 +933,28 @@ formatter.match({
   "location": "SearchFromSearchBar.userEntersItemInSearchField(String)"
 });
 formatter.result({
-  "duration": 2284639099,
+  "duration": 2309462569,
   "status": "passed"
 });
 formatter.match({
   "location": "NavigateToItemDetails.userClicksOnFirstItemThatAppearsInSearchResult()"
 });
 formatter.result({
-  "duration": 2460455727,
+  "duration": 2879039927,
   "status": "passed"
 });
 formatter.match({
   "location": "AddItemToBasket.userClicksOnAddButton()"
 });
 formatter.result({
-  "duration": 3456959175,
+  "duration": 1191550063,
   "status": "passed"
 });
 formatter.match({
   "location": "EditBasket.userClicksOnEditButton()"
 });
 formatter.result({
-  "duration": 1303629853,
+  "duration": 963689529,
   "status": "passed"
 });
 formatter.match({
@@ -971,7 +971,7 @@ formatter.match({
   "location": "EditBasket.newPageIsLoadedWithBasketDetails(String,String)"
 });
 formatter.result({
-  "duration": 96703612,
+  "duration": 1030026695,
   "status": "passed"
 });
 formatter.match({
@@ -984,7 +984,7 @@ formatter.match({
   "location": "EditBasket.itemInBasketHasTitle(String)"
 });
 formatter.result({
-  "duration": 78720937,
+  "duration": 49222303,
   "status": "passed"
 });
 formatter.match({
@@ -997,20 +997,20 @@ formatter.match({
   "location": "EditBasket.itemInBasketHasType(String)"
 });
 formatter.result({
-  "duration": 89983369,
+  "duration": 53439845,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "£3.99",
+      "val": "£3.72",
       "offset": 26
     }
   ],
   "location": "EditBasket.itemInBasketHasPrice(String)"
 });
 formatter.result({
-  "duration": 747389821,
+  "duration": 50976411,
   "status": "passed"
 });
 formatter.match({
@@ -1023,24 +1023,24 @@ formatter.match({
   "location": "EditBasket.itemInBasketHasQuantity(String)"
 });
 formatter.result({
-  "duration": 68686524,
+  "duration": 51864420,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "£3.99",
+      "val": "£3.72",
       "offset": 24
     }
   ],
   "location": "EditBasket.basketHasTotalPrice(String)"
 });
 formatter.result({
-  "duration": 76841352,
+  "duration": 54288588,
   "status": "passed"
 });
 formatter.after({
-  "duration": 896425061,
+  "duration": 925964674,
   "status": "passed"
 });
 });

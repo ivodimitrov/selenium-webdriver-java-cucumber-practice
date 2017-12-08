@@ -22,7 +22,7 @@ public class ItemResultsPage extends DriverFactory {
     // private By itemTypeHeading = By.xpath(".//*[@id='result_0']//div[2]/div[1]/div[1]/a/h3");
     private By itemTypeHeading = By.cssSelector(".a-size-small.s-inline.a-text-normal");
     // Item Price
-    private By itemPriceLink = By.xpath("//*[@id=\"result_0\"]/div/div/div/div[2]/div[2]/div[1]/div[2]");
+    private By itemPriceLink = By.xpath("//*[@id='result_0']/div/div/div/div[2]/div[2]/div[1]/div[2]");
     // private By itemPriceLink = By.cssSelector("");
     // Item title heading
     private By itemTitleLink = By.cssSelector("#result_0 .a-size-medium.s-inline.s-access-title.a-text-normal");
