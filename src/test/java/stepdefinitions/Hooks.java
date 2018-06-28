@@ -1,17 +1,15 @@
 package stepdefinitions;
 
-import java.net.MalformedURLException;
-
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import utils.DriverFactory;
 
 public class Hooks {
 
-    DriverFactory driverFactory = new DriverFactory();
+    private DriverFactory driverFactory = new DriverFactory();
 
     @Before
-    public void beforeScenario() throws MalformedURLException, InterruptedException {
+    public void beforeScenario() {
         driverFactory.setUp();
     }
 

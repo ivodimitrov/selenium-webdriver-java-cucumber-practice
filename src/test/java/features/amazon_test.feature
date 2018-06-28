@@ -14,7 +14,7 @@ Feature: Test add item to and edit basket at https://www.amazon.co.uk/
 
     Examples:
       | Web page                                                                | Dropdown section | Item title                                          | Item type | Item price |
-      | Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment & more | Books            | Harry Potter and the Cursed Child - Parts One & Two | Paperback | £3.72      |
+      | Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment & more | Books            | Harry Potter and the Cursed Child - Parts One & Two | Paperback | £4.00      |
 
   Scenario Outline: Navigate to item details
     Given web browser is at web page "<Web page>"
@@ -28,7 +28,7 @@ Feature: Test add item to and edit basket at https://www.amazon.co.uk/
 
     Examples:
       | Web page                                                                | Dropdown section | Item title                        | Item type | Item price |
-      | Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment & more | Books            | Harry Potter and the Cursed Child | Paperback | £3.72      |
+      | Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment & more | Books            | Harry Potter and the Cursed Child | Paperback | £4.00      |
 
   Scenario Outline: Add item to basket
     Given web browser is at web page "<Web page>"
@@ -59,4 +59,4 @@ Feature: Test add item to and edit basket at https://www.amazon.co.uk/
 
     Examples:
       | Web page                                                                | Dropdown section | Item title                        | Basket web page              | Basket details  | Item type | Item price | Quantity | Total price |
-      | Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment & more | Books            | Harry Potter and the Cursed Child | Amazon.co.uk Shopping Basket | Shopping Basket | Paperback | £3.72      | 1        | £3.72       |
+      | Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment & more | Books            | Harry Potter and the Cursed Child | Amazon.co.uk Shopping Basket | Shopping Basket | Paperback | £4.00      | 1        | £4.00       |

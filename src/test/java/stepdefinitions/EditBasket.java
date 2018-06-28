@@ -7,41 +7,41 @@ import pageobjects.BasketPage;
 import pageobjects.ConfirmationPage;
 
 public class EditBasket {
-    ConfirmationPage confirmationPage = new ConfirmationPage();
-    BasketPage basketPage = new BasketPage();
+    private ConfirmationPage confirmationPage = new ConfirmationPage();
+    private BasketPage basketPage = new BasketPage();
 
     @When("^user clicks on edit button$")
-    public void userClicksOnEditButton() throws Throwable {
+    public void userClicksOnEditButton() {
         confirmationPage.clickEditBasketButton();
     }
 
     @Then("^new page \"([^\"]*)\" is loaded with basket details \"([^\"]*)\"$")
-    public void newPageIsLoadedWithBasketDetails(String basketWebPage, String basketDetails) throws Throwable {
+    public void newPageIsLoadedWithBasketDetails(String basketWebPage, String basketDetails) {
         basketPage.verifyNewPageIsLoadedWithBasketDetails(basketWebPage, basketDetails);
     }
 
     @And("^item in basket has title \"([^\"]*)\"$")
-    public void itemInBasketHasTitle(String itemTitle) throws Throwable {
+    public void itemInBasketHasTitle(String itemTitle) {
         basketPage.verifyItemTitle(itemTitle);
     }
 
     @And("^item in basket has type \"([^\"]*)\"$")
-    public void itemInBasketHasType(String itemType) throws Throwable {
+    public void itemInBasketHasType(String itemType) {
         basketPage.verifyItemType(itemType);
     }
 
     @And("^item in basket has price \"([^\"]*)\"$")
-    public void itemInBasketHasPrice(String itemPrice) throws Throwable {
+    public void itemInBasketHasPrice(String itemPrice) {
         basketPage.verifyItemPrice(itemPrice);
     }
 
     @And("^item in basket has quantity \"([^\"]*)\"$")
-    public void itemInBasketHasQuantity(String itemQuantity) throws Throwable {
+    public void itemInBasketHasQuantity(String itemQuantity) {
         basketPage.verifyItemQuantity(itemQuantity);
     }
 
     @And("^basket has total price \"([^\"]*)\"$")
-    public void basketHasTotalPrice(String totalPrice) throws Throwable {
+    public void basketHasTotalPrice(String totalPrice) {
         basketPage.verifyBasketTotalPrice(totalPrice);
     }
 }

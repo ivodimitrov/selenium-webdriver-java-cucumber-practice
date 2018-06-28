@@ -7,31 +7,31 @@ import pageobjects.ItemDetailsPage;
 import pageobjects.ItemResultsPage;
 
 public class NavigateToItemDetails {
-    ItemResultsPage itemResultsPage = new ItemResultsPage();
-    ItemDetailsPage itemDetailsPage = new ItemDetailsPage();
+    private ItemResultsPage itemResultsPage = new ItemResultsPage();
+    private ItemDetailsPage itemDetailsPage = new ItemDetailsPage();
 
     @When("^user clicks on first item that appears in search result$")
-    public void userClicksOnFirstItemThatAppearsInSearchResult() throws Throwable {
+    public void userClicksOnFirstItemThatAppearsInSearchResult() {
         itemResultsPage.userClicksOnItemTitle();
     }
 
     @Then("^new web page is loaded with item details \"([^\"]*)\"$")
-    public void newWebPageIsLoadedWithItemDetails(String itemTitle) throws Throwable {
+    public void newWebPageIsLoadedWithItemDetails(String itemTitle) {
         itemDetailsPage.verifyNewWebPageIsLoadedWithItemDetails(itemTitle);
     }
 
     @And("^item has title \"([^\"]*)\"$")
-    public void itemHasTitle(String itemTitle) throws Throwable {
+    public void itemHasTitle(String itemTitle) {
         itemDetailsPage.verifyItemTitle(itemTitle);
     }
 
     @And("^item has type \"([^\"]*)\"$")
-    public void itemHasType(String itemType) throws Throwable {
+    public void itemHasType(String itemType) {
         itemDetailsPage.verifyItemType(itemType);
     }
 
     @And("^item has price \"([^\"]*)\"$")
-    public void itemHasPrice(String itemPrice) throws Throwable {
+    public void itemHasPrice(String itemPrice) {
         itemDetailsPage.verifyItemPrice(itemPrice);
     }
 }

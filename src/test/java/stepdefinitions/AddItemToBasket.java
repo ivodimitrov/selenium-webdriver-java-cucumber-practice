@@ -8,21 +8,21 @@ import pageobjects.ItemDetailsPage;
 
 public class AddItemToBasket {
 
-    ItemDetailsPage itemDetailsPage = new ItemDetailsPage();
-    ConfirmationPage confirmationPage = new ConfirmationPage();
+    private ItemDetailsPage itemDetailsPage = new ItemDetailsPage();
+    private ConfirmationPage confirmationPage = new ConfirmationPage();
 
     @When("^user clicks on add button$")
-    public void userClicksOnAddButton() throws Throwable {
+    public void userClicksOnAddButton() {
         itemDetailsPage.clickAddToBasketButton();
     }
 
     @Then("^notification is shown \"([^\"]*)\"$")
-    public void notificationIsShown(String itemNotification) throws Throwable {
+    public void notificationIsShown(String itemNotification) {
         confirmationPage.verifyNotificationIsShown(itemNotification);
     }
 
     @And("^item has quantity \"([^\"]*)\"$")
-    public void itemHasQuantity(String itemQuantity) throws Throwable {
+    public void itemHasQuantity(String itemQuantity) {
         confirmationPage.verifyItemHasQuantity(itemQuantity);
     }
 }

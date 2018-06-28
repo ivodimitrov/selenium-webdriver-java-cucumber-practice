@@ -1,31 +1,28 @@
 package utils;
 
-import java.net.MalformedURLException;
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.concurrent.TimeUnit;
 
 public class DriverFactory {
 
-    public static WebDriver driver = null;
-    public static WebDriverWait waitVar = null;
+    protected static WebDriver driver = null;
+    protected static WebDriverWait waitVar = null;
 
-    public static String baseURL = "https://www.amazon.co.uk/";
-
-    public void setUp() throws MalformedURLException, InterruptedException {
-        // Precondition: drivers are set in Environment Variables Path
+    public void setUp() {
         driver = new ChromeDriver();
         // driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        String baseURL = "https://www.amazon.co.uk/";
         driver.get(baseURL);
         waitVar = new WebDriverWait(driver, 15);
     }
 
     public void tearDown() {
+        driver.close();
         driver.quit();
     }
 }

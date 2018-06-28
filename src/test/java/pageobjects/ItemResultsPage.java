@@ -4,9 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import utils.DriverFactory;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 public class ItemResultsPage extends DriverFactory {
     /**
@@ -36,7 +34,7 @@ public class ItemResultsPage extends DriverFactory {
         assertTrue("Result count is not displayed", driver.findElement(resultCountHeading).isDisplayed());
         waitVar.until(ExpectedConditions.presenceOfElementLocated(resultsHeading));
         assertTrue("Result Heading is not displayed", driver.findElement(resultsHeading).isDisplayed());
-        assertFalse("Results count value is equal to 0", driver.findElement(resultCountHeading).getText().equals("0"));
+        assertNotEquals("Results count value is equal to 0", "0", driver.findElement(resultCountHeading).getText());
         assertTrue("Results for item are not shown", driver.findElement(resultsHeading).getText().contains(searchItem));
     }
 
