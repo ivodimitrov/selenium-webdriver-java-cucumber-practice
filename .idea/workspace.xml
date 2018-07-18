@@ -4,6 +4,7 @@
     <list default="true" id="6841e423-3bb0-4457-81c1-74b857a7cc32" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report/report.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,8 +46,8 @@
       <file leaf-file-name="SearchFromSearchBar.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/SearchFromSearchBar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="272">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="e#492#493#0" expanded="true" />
                 <element signature="e#551#552#0" expanded="true" />
@@ -58,8 +59,8 @@
       <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+            <state relative-caret-position="541">
+              <caret line="43" column="53" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
               <folding>
                 <element signature="e#908#909#0" expanded="true" />
                 <element signature="e#962#963#0" expanded="true" />
@@ -502,22 +503,17 @@
       <option name="project" value="LOCAL" />
       <updated>1531931845559</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Refactored HomePage.">
+      <created>1531931991522</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1531931991522</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunCukeTest - 2018.06.28 at 15h 35m 42s.xml">
-      <configuration name="RunCukeTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RunCukeTest - 2018.06.28 at 15h 40m 44s.xml">
-      <configuration name="RunCukeTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RunCukeTest - 2018.06.28 at 15h 46m 45s.xml">
-      <configuration name="RunCukeTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RunCukeTest - 2018.06.28 at 15h 50m 02s.xml">
-      <configuration name="RunCukeTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="RunCukeTest - 2018.06.28 at 16h 02m 19s.xml">
       <configuration name="RunCukeTest" configurationId="TestNG" />
     </history-entry>
@@ -534,6 +530,18 @@
       <configuration name="RunCukeTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="RunCukeTest - 2018.07.18 at 19h 34m 49s.xml">
+      <configuration name="RunCukeTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RunCukeTest - 2018.07.18 at 19h 39m 28s.xml">
+      <configuration name="RunCukeTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RunCukeTest - 2018.07.18 at 19h 45m 10s.xml">
+      <configuration name="RunCukeTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RunCukeTest - 2018.07.18 at 19h 48m 54s.xml">
+      <configuration name="RunCukeTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RunCukeTest - 2018.07.18 at 19h 52m 04s.xml">
       <configuration name="RunCukeTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -961,8 +969,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/SearchFromSearchBar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        <state relative-caret-position="272">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#492#493#0" expanded="true" />
             <element signature="e#551#552#0" expanded="true" />
@@ -972,8 +980,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+        <state relative-caret-position="541">
+          <caret line="43" column="53" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
           <folding>
             <element signature="e#908#909#0" expanded="true" />
             <element signature="e#962#963#0" expanded="true" />
