@@ -37,6 +37,7 @@ public class HomePage extends DriverFactory {
     // Verify that home page is correct and opened
     public void verifyHomePageIsDisplayed(String webPage) {
         // waitVar.until(ExpectedConditions.presenceOfElementLocated(amazonLogo));
+        waitVar.until(ExpectedConditions.titleContains(webPage));
         waitVar.until(ExpectedConditions.visibilityOf(amazonLogo));
         // assertTrue("Home page is not displayed", driver.findElement(amazonLogo).isDisplayed());
         assertTrue("Home page is not displayed", amazonLogo.isDisplayed());
