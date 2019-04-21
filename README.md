@@ -1,3 +1,5 @@
+Java-based test automation framework built on top of the most popular solutions Selenium WebDriver, JUnit, TestNG, Cucumber and Maven.
+
 The Problem: 
 - Add item to basket and edit basket at ​https://www.amazon.co.uk
 
@@ -10,8 +12,8 @@ Automation Scenario:
 
 Frameworks & tools:
 - Java
-- Cucumber (BDD) / Gherkin
 - Selenium WebDriver
 - JUnit
 - TestNG
+- Cucumber (BDD) / Gherkin
 - Maven
