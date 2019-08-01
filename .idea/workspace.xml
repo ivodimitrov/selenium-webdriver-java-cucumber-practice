@@ -1,45 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6841e423-3bb0-4457-81c1-74b857a7cc32" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_3_2_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_phantomjsdriver_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_21_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_neko_htmlunit_2_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_3_v20170317.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_3_v20170317.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_1_v20170120.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_1_v20170120.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_3_v20170317.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_3_v20170317.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_3_v20170317.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_htmlunit_driver_2_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6841e423-3bb0-4457-81c1-74b857a7cc32" name="Default" comment="Updated Selenium Java version to 3.9.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AddToAndEditBasketAtAmazon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AddToAndEditBasketAtAmazon.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +59,7 @@
     <property name="SeleniumPlugin.IsSelectorCheckEnabled" value="true" />
     <property name="SeleniumPlugin.TagNameSelectorCheckEnabled" value="false" />
     <property name="SeleniumPlugin.XpathSelectorCheckEnabled" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../selenium-practice-tasks-and-solutions" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -103,6 +69,7 @@
       <recent name="C:\Users\ivopd\IdeaProjects\tests-at-amazon\src\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ivo.Dimitrov\IdeaProjects\tests-at-amazon\src\test\resources\drivers" />
       <recent name="C:\Users\ipdimitrov\IdeaProjects\tests-at-amazon\src\test\resources\drivers" />
       <recent name="C:\Users\ivopd\IdeaProjects\tests-at-amazon\src\test\resources" />
     </key>
@@ -119,7 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.RunCukeTest">
+  <component name="RunManager" selected="Cucumber java.Scenario: Search from search bar">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -142,6 +109,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Search from search bar" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/amazon_test.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="AddToAndEditBasketAtAmazon" />
+      <option name="NAME_FILTER" value="^Search from search bar$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Search from search bar$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Search from search bar" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,10 +162,12 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber java.Feature: amazon_test" />
+      <item itemvalue="Cucumber java.Scenario: Search from search bar" />
       <item itemvalue="TestNG.RunCukeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: Search from search bar" />
         <item itemvalue="TestNG.RunCukeTest" />
       </list>
     </recent_temporary>
@@ -334,40 +316,15 @@
       <option name="project" value="LOCAL" />
       <updated>1531931991522</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Updated Selenium Java version to 3.9.1">
+      <created>1564669698365</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1564669698365</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="RunCukeTest - 2018.06.28 at 16h 02m 19s.xml">
-      <configuration name="RunCukeTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RunCukeTest - 2018.06.28 at 16h 04m 26s.xml">
-      <configuration name="RunCukeTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RunCukeTest - 2018.06.28 at 16h 06m 26s.xml">
-      <configuration name="RunCukeTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RunCukeTest - 2018.07.18 at 18h 30m 57s.xml">
-      <configuration name="RunCukeTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RunCukeTest - 2018.07.18 at 18h 34m 16s.xml">
-      <configuration name="RunCukeTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RunCukeTest - 2018.07.18 at 19h 34m 49s.xml">
-      <configuration name="RunCukeTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RunCukeTest - 2018.07.18 at 19h 39m 28s.xml">
-      <configuration name="RunCukeTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RunCukeTest - 2018.07.18 at 19h 45m 10s.xml">
-      <configuration name="RunCukeTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RunCukeTest - 2018.07.18 at 19h 48m 54s.xml">
-      <configuration name="RunCukeTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RunCukeTest - 2018.07.18 at 19h 52m 04s.xml">
-      <configuration name="RunCukeTest" configurationId="TestNG" />
-    </history-entry>
   </component>
   <component name="UpdateCopyrightCheckinHandler">
     <option name="UPDATE_COPYRIGHT" value="true" />
@@ -397,7 +354,8 @@
     <MESSAGE value="Add dependencies and some code to run cucumber test via TestNG framework instead of JUnit framework." />
     <MESSAGE value="Added dependencies and resources." />
     <MESSAGE value="Refactored HomePage." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored HomePage." />
+    <MESSAGE value="Updated Selenium Java version to 3.9.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Selenium Java version to 3.9.1" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
